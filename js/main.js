@@ -88,21 +88,21 @@ const siteContent = {
       name:  "प्रफुल पाषाणकर",
       role:  "Creative Concept & Decoration Lead",
       note:  "गिरनार देखाव्याची मूळ संकल्पना, कलात्मक नियोजन आणि संपूर्ण सजावटीचे मुख्य दिग्दर्शन.",
-      image: "./assets/images/Praful-Pashankar.jpeg"
+      image: "./assets/images/Praful-Pashankar.webp"
     },
     {
       index: "02",
       name:  "विराज जाधव",
       role:  "Art & Traditional Handcraft Design",
       note:  "मंदिर वास्तुकलेचे सूक्ष्म नक्षीकाम, हस्तकला आणि प्रामाणिक देखावा रचना.",
-      image: "./assets/images/viraj-jadhav.jpeg"
+      image: "./assets/images/viraj-jadhav.webp"
     },
     {
       index: "03",
       name:  "वैष्णवी जाधव",
       role:  "Color Aesthetics & Floral Styling",
       note:  "आकर्षक रंगसंगतीचे संयोजन, पुष्पसजावट आणि आभूषणांचे सुशोभीकरण.",
-      image: "./assets/images/vaishnavi.jpeg"
+      image: "./assets/images/vaishnavi.webp"
     },
     {
       index: "04",
@@ -116,14 +116,14 @@ const siteContent = {
       name:  "वेदांत कोकरे",
       role:  "Decoration Planning & Digital Design",
       note:  "मूर्ती सजावट, नियोजन, तांत्रिक सहाय्य आणि डिजिटल सादरीकरण.",
-      image: "./assets/images/Vedant.jpeg"
+      image: "./assets/images/Vedant.webp"
     },
     {
       index: "06",
       name:  "सत्यम जाधव",
       role:  "Lighting & Setup Organizer",
       note:  "नाट्यमय प्रकाशयोजना, वीज व्यवस्थापन आणि उभारणी मांडणी.",
-      image: "./assets/images/Satyam.jpeg"
+      image: "./assets/images/Satyam.webp"
     }
   ]
 };

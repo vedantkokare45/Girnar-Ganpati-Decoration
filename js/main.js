@@ -116,7 +116,7 @@ const siteContent = {
       name:  "वैष्णवी जाधव",
       role:  "Color Aesthetics & Creative Dept Head",
       note:  "नयनरम्य रंगसंगतीचे संयोजन, कलात्मक रंगकाम आणि मंदिराच्या मुख्य सुशोभीकरणाचे नेतृत्व.",
-      image: "./assets/images/vaishnavi.webp"
+      image: "./assets/images/vaishnavi.jpeg"
     },
     {
       index: "06",

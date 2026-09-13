@@ -1,0 +1,115 @@
+/* ==============================================================
+   Girnar Darshan — Micro-animations & Keyframes
+================================================================= */
+
+/* Halo & Aura Breathing Glow */
+@keyframes haloPulse {
+  0%, 100% {
+    opacity: 0.65;
+    transform: scale(1);
+    filter: blur(28px) drop-shadow(0 0 20px rgba(230, 182, 92, 0.4));
+  }
+  50% {
+    opacity: 0.95;
+    transform: scale(1.08);
+    filter: blur(34px) drop-shadow(0 0 35px rgba(216, 137, 26, 0.7));
+  }
+}
+
+.ganpati__halo {
+  animation: haloPulse 5s ease-in-out infinite;
+}
+
+/* Subtle Shimmer for Gold Accent Text */
+@keyframes goldShimmer {
+  0% {
+    background-position: -200% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+.hero-copy__mantra, .eyebrow {
+  background: linear-gradient(90deg, #E6B65C 0%, #F5E7C8 50%, #D8891A 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: goldShimmer 6s linear infinite;
+}
+
+/* Floating Scroll Indicator Bounce */
+@keyframes scrollCueBounce {
+  0%, 100% {
+    transform: translateY(0);
+    opacity: 0.7;
+  }
+  50% {
+    transform: translateY(8px);
+    opacity: 1;
+  }
+}
+
+.scroll-cue svg {
+  animation: scrollCueBounce 1.8s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Card Glow on Touch / Hover */
+.card {
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.4s ease, box-shadow 0.4s ease;
+}
+
+@media (hover: hover) {
+  .card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(230, 182, 92, 0.45);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5), 0 0 20px rgba(230, 182, 92, 0.12);
+  }
+}
+
+.card:active {
+  transform: scale(0.98);
+}
+
+/* Audio Pulse Effect when active */
+.audio-btn[aria-pressed="true"] {
+  border-color: rgba(230, 182, 92, 0.7);
+  box-shadow: 0 0 15px rgba(230, 182, 92, 0.3);
+}
+
+/* Smooth Image Loading Blur-up */
+img {
+  transition: opacity 0.5s ease, filter 0.5s ease;
+}
+
+img[loading] {
+  opacity: 0.9;
+}
+
+/* 3D Floating Stat Badges & Aura Animations */
+@keyframes float3DBadge {
+  0%, 100% {
+    transform: translateZ(15px) translateY(0px);
+  }
+  50% {
+    transform: translateZ(25px) translateY(-5px);
+  }
+}
+
+.girnar-showcase__badge {
+  animation: float3DBadge 4s ease-in-out infinite;
+}
+
+@keyframes mountainGlowPulse {
+  0%, 100% {
+    box-shadow: 0 20px 50px rgba(0,0,0,.65), 0 0 35px rgba(230,182,92,.12);
+  }
+  50% {
+    box-shadow: 0 25px 60px rgba(0,0,0,.85), 0 0 55px rgba(230,182,92,.28);
+  }
+}
+
+.girnar-showcase {
+  animation: mountainGlowPulse 6s ease-in-out infinite;
+}
+

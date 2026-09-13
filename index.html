@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+<meta name="theme-color" content="#090706" />
+<title>गिरनार दर्शन · गणपती बाप्पा मोरया</title>
+<meta name="description" content="गणपती बाप्पा मोरया — गिरनार पर्वत व मंदिर सजावटीचा अलौकिक डिजिटल दर्शन अनुभव." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Mukta:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Rozha+One&family=Yatra+One&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="./css/style.css" />
+<link rel="stylesheet" href="./css/animations.css" />
+</head>
+<body class="is-loading">
+
+<!-- ══ LOADER ══ -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader__glow"></div>
+  <p class="loader__mantra">ॐ गं गणपतये नमः</p>
+  <div class="loader__bar"><span></span></div>
+</div>
+
+<!-- ══ FLOATING UI ══ -->
+<header class="topbar" aria-label="Primary">
+  <a href="#top" class="brand" aria-label="गिरनार दर्शन">
+    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+      <path d="M12 2 3 20h18L12 2Zm0 5 4.5 10h-9L12 7Z" fill="currentColor"/>
+    </svg>
+    <span>गिरनार दर्शन</span>
+  </a>
+</header>
+
+<nav class="rail" aria-label="Section progress">
+  <ol>
+    <li data-target="hero"><span>दर्शन</span></li>
+    <li data-target="girnar"><span>गिरनार</span></li>
+    <li data-target="video"><span>व्हिडिओ</span></li>
+    <li data-target="team"><span>माणसं</span></li>
+    <li data-target="final"><span>समारोप</span></li>
+  </ol>
+</nav>
+
+<main id="top">
+
+  <!-- ══ 1 : PINNED HERO STAGE ══ -->
+  <section class="stage" id="hero" aria-label="गणपती दर्शन">
+    <div class="stage__inner" id="stage">
+
+      <div class="layer layer--sky"           data-depth="0.06"></div>
+      <div class="layer layer--fog"           data-depth="0.14"></div>
+      <div class="layer layer--mountain-far"  data-depth="0.22"></div>
+      <div class="layer layer--mountain-mid"  data-depth="0.34"></div>
+      <div class="layer layer--temple"        data-depth="0.5"></div>
+
+      <canvas class="dust" id="dust" aria-hidden="true"></canvas>
+
+      <div class="ganpati" id="ganpati" role="img" aria-label="श्री गणपती बाप्पा">
+        <div class="ganpati__halo"></div>
+        <div class="ganpati__img"></div>
+        <div class="ganpati__plinth"></div>
+      </div>
+
+      <div class="hero-copy" id="heroCopy">
+        <p class="hero-copy__mantra">ॐ गं गणपतये नमः</p>
+        <h1 class="hero-copy__title">गणपती बाप्पा मोरया</h1>
+        <p class="hero-copy__sub">गिरनार पर्वत व मंदिर सजावट</p>
+      </div>
+
+      <div class="scroll-cue" id="scrollCue" aria-hidden="true">
+        <span>खाली सरकवा</span>
+        <svg viewBox="0 0 24 24" width="16" height="16"><path d="M12 4v14m0 0-6-6m6 6 6-6" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round"/></svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ 2 : GIRNAR INFORMATION SECTION ══ -->
+  <section class="section section--girnar" id="girnar" aria-labelledby="girnar-title">
+    <div class="section__inner">
+
+      <!-- Header & Information -->
+      <div class="section-header-wrap">
+        <div>
+          <p class="eyebrow">🚩 पावन सिद्धभूमी 🚩</p>
+          <h2 class="display" id="girnar-title">गिरनार पर्वत व दर्शन</h2>
+          <p class="lede">श्री गिरनार महातीर्थ — १०,००० पायऱ्या, ५ पवित्र शिखरे व गुरु दत्तात्रेयांची पावन भूमी.</p>
+        </div>
+      </div>
+
+      <!-- 5 SACRED PEAKS GRID -->
+      <div class="peaks-header">
+        <span class="eyebrow">⛰️ ५ पवित्र शिखरे</span>
+        <h3 class="sub-title">गिरनारची प्रमुख स्थाने</h3>
+      </div>
+
+      <div class="peaks-grid">
+        <article class="peak-item">
+          <div class="peak-item__badge">१. अंबा माता</div>
+          <h4>अंबा माता मंदिर</h4>
+          <p class="peak-item__stat">📍 ५,००० पायऱ्या · २,३०० फूट</p>
+          <p class="peak-item__desc">प्राचीन शक्तिपीठ दर्शन, नवविवाहित व भाविकांचे श्रद्धास्थान.</p>
+        </article>
+
+        <article class="peak-item">
+          <div class="peak-item__badge">२. गोरखनाथ</div>
+          <h4>गुरु गोरखनाथ शिखर</h4>
+          <p class="peak-item__stat">📍 ७,००० पायऱ्या · ३,६६६ फूट</p>
+          <p class="peak-item__desc">गुजरातमधील सर्वोच्च शिखर व नाथ संप्रदायाचे मूळ तपःस्थान.</p>
+        </article>
+
+        <article class="peak-item">
+          <div class="peak-item__badge">३. नेमिनाथ</div>
+          <h4>नेमिनाथ जैन मंदिर</h4>
+          <p class="peak-item__stat">📍 ८,२०० पायऱ्या · ३,१०० फूट</p>
+          <p class="peak-item__desc">२२ वे तीर्थंकर स्थान, १२ व्या शतकातील संगमरवरी वास्तुकला.</p>
+        </article>
+
+        <article class="peak-item">
+          <div class="peak-item__badge">४. रामचन्द्र</div>
+          <h4>रामचन्द्र शिखर</h4>
+          <p class="peak-item__stat">📍 ८,८०० पायऱ्या · ३,३०० फूट</p>
+          <p class="peak-item__desc">अथांग दऱ्या व अवधूत संप्रदायाचे निसर्गरम्य शिखर.</p>
+        </article>
+
+        <article class="peak-item">
+          <div class="peak-item__badge">५. गुरु दत्तात्रेय</div>
+          <h4>गुरु दत्तात्रेय पादुका</h4>
+          <p class="peak-item__stat">📍 ९,९९९ पायऱ्या · ३,६०० फूट</p>
+          <p class="peak-item__desc">अंतिम व परमपावन शिखर, श्री दत्तात्रेयांच्या पवित्र पादुका दर्शन.</p>
+        </article>
+      </div>
+
+      <!-- KEY HIGHLIGHT CARDS -->
+      <div class="girnar-grid">
+        <article class="card">
+          <div class="card__icon">🚡</div>
+          <h3>आशियातील सर्वात मोठा रोप-वे</h3>
+          <p>२.३ किमीचा गिरनार रोप-वे अवघ्या १० मिनिटांत थेट अंबाजी मंदिरापर्यंत पोहोचवतो.</p>
+        </article>
+
+        <article class="card">
+          <div class="card__icon">🕉️</div>
+          <h3>अखंड तपश्चर्या</h3>
+          <p>हजारो वर्षांपासून अवधूत साधू व संतांच्या भक्तीने पावन झालेले चैतन्यमय तीर्थ.</p>
+        </article>
+
+        <article class="card">
+          <div class="card__icon">🌸</div>
+          <h3>लिलुडी परिक्रमा</h3>
+          <p>कार्तिक पौर्णिमेला होणारी ३६ किमीची परिक्रमा भक्ती आणि निसर्गाचा अद्वितीय संगम.</p>
+        </article>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══ 3 : YOUTUBE VIDEO SECTION ══ -->
+  <section class="section section--video" id="video" aria-labelledby="video-sec-title">
+    <div class="section__inner">
+      <div class="section-header-wrap">
+        <div>
+          <p class="eyebrow">🎥 गिरनार दर्शन व्हिडिओ 🎥</p>
+          <h2 class="display" id="video-sec-title">गिरनार पर्वत व मंदिरांची सविस्तर सफर</h2>
+          <p class="lede">गिरनार पर्वताचा अलौकिक इतिहास आणि १०,००० पायऱ्यांच्या चढणाचा थेट दर्शन अनुभव.</p>
+        </div>
+      </div>
+
+      <div class="video-section">
+        <div class="video-card">
+          <div class="video-header">
+            <span class="video-badge">🎥 HD व्हिडिओ दर्शन</span>
+            <h3 class="video-title">श्री गिरनार महातीर्थ थेट दृश्य</h3>
+          </div>
+          <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/vL-fY3zdJK0?si=ydyuekaq0JshPenZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+          <div class="video-wrapper">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/vL-fY3zdJK0?si=ON94h0PW1UXz8wPt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <p class="video-caption">गिरनार पर्वताचा अद्भुत इतिहास, १०,००० पायऱ्यांची चढण आणि पवित्र स्थानांचे थेट दृश्य.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ 4 : TEAM ══ -->
+  <section class="section section--team" id="team" aria-labelledby="team-title">
+    <div class="section__inner">
+      <p class="eyebrow">माणसं</p>
+      <h2 class="display" id="team-title">सजावटीमागची माणसं</h2>
+      <p class="lede">हात, संकल्प आणि भक्ती — या तिघांचा सुरेख संगम.</p>
+
+      <div class="ensemble" id="teamList">
+        <!-- JS injects .member rows -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ 5 : FINAL DARSHAN ══ -->
+  <section class="section section--final" id="final" aria-labelledby="final-title">
+    <div class="final-stage">
+      <div class="final-ganpati" aria-hidden="true">
+        <div class="ganpati__halo ganpati__halo--final"></div>
+        <div class="ganpati__img ganpati__img--final"></div>
+      </div>
+      <div class="final-copy" id="finalCopy">
+        <h2 class="display" id="final-title">गणपती बाप्पा मोरया</h2>
+        <p class="final-line">पुढच्या वर्षी लवकर या <span class="heart">❤</span></p>
+        <p class="final-mantra">ॐ गं गणपतये नमः</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ FOOTER ══ -->
+  <!-- <footer class="footer">
+    <p>सादर दर्शन · गिरनार सजावट</p>
+    <p class="footer__small">गणपती उत्सव २०२४ · जुनागढ गिरनार दर्शन</p>
+  </footer> -->
+</main>
+
+<!-- GSAP -->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+
+<script src="./js/main.js" defer></script>
+<script src="./js/animations.js" defer></script>
+</body>
+</html>

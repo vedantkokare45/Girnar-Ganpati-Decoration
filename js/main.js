@@ -86,44 +86,72 @@ const siteContent = {
     {
       index: "01",
       name:  "प्रफुल पाषाणकर",
-      role:  "Creative Concept & Decoration Lead",
-      note:  "गिरनार देखाव्याची मूळ संकल्पना, कलात्मक नियोजन आणि संपूर्ण सजावटीचे मुख्य दिग्दर्शन.",
+      role:  "Founder & Project Visionary",
+      note:  "गिरनार देखाव्याचे मुख्य संकल्पनाकार, कल्पक संकल्पनेचे मूळ जनक आणि संपूर्ण उत्सवाचे मुख्य आयोजक.",
       image: "./assets/images/Praful-Pashankar.webp"
     },
     {
       index: "02",
       name:  "विराज जाधव",
-      role:  "Art & Traditional Handcraft Design",
-      note:  "मंदिर वास्तुकलेचे सूक्ष्म नक्षीकाम, हस्तकला आणि प्रामाणिक देखावा रचना.",
+      role:  "Creative Director & Art Lead",
+      note:  "देखाव्याचे मुख्य कलात्मक दिग्दर्शक, वास्तुकलेचे सूक्ष्म नक्षीकाम आणि देखावा रचनेचे मुख्य मार्गदर्शन.",
       image: "./assets/images/viraj-jadhav.webp"
     },
     {
       index: "03",
-      name:  "वैष्णवी जाधव",
-      role:  "Color Aesthetics & Floral Styling",
-      note:  "आकर्षक रंगसंगतीचे संयोजन, पुष्पसजावट आणि आभूषणांचे सुशोभीकरण.",
-      image: "./assets/images/vaishnavi.webp"
-    },
-    {
-      index: "04",
       name:  "ऋषी आंद्रे",
-      role:  "Set Architecture & Stage Design",
-      note:  "भव्य गिरनार देखाव्याची प्रत्यक्ष उभारणी, संरचनात्मक मजबुती आणि मंच रचना.",
+      role:  "Lead Set Architect & Concept Realization",
+      note:  "संकल्पनेला प्रत्यक्ष जिवंत रूप देणारे मुख्य कलाकार, भव्य गिरनार पर्वताची उभारणी आणि सृजनशील मंच रचना.",
       image: "./assets/images/Andre.jpg"
     },
     {
-      index: "05",
+      index: "04",
       name:  "वेदांत कोकरे",
-      role:  "Decoration Planning & Digital Design",
-      note:  "मूर्ती सजावट, नियोजन, तांत्रिक सहाय्य आणि डिजिटल सादरीकरण.",
+      role:  "Lead Web Developer & Creative Assistant",
+      note:  "गिरनार दर्शन वेबसाईटचे मुख्य निर्माते, डिजिटल सादरीकरण व देखावा उभारणीतील सर्वांगीण सहाय्यक.",
       image: "./assets/images/Vedant.webp"
     },
     {
+      index: "05",
+      name:  "वैष्णवी जाधव",
+      role:  "Color Aesthetics & Creative Dept Head",
+      note:  "नयनरम्य रंगसंगतीचे संयोजन, कलात्मक रंगकाम आणि मंदिराच्या मुख्य सुशोभीकरणाचे नेतृत्व.",
+      image: "./assets/images/vaishnavi.webp"
+    },
+    {
       index: "06",
+      name:  "आकांक्षा धुमाळ",
+      role:  "Temple Development & Structure Stylist",
+      note:  "मंदिर वास्तुकला विकास, सूक्ष्म नक्षीकाम देखावा आणि रचनात्मक सौंदर्याचे नियोजन.",
+      image: "./assets/images/akansha.jpeg"
+    },
+    {
+      index: "07",
+      name:  "अपर्णा धुमाळ",
+      role:  "Floral Design & Decor Executive",
+      note:  "उत्कृष्ट पुष्पसजावट, आकर्षक आभूषण मांडणी आणि मंदिराच्या सजावटीचे अंतिम फिनिशिंग.",
+      image: "./assets/images/aparna.jpeg"
+    },
+    {
+      index: "08",
+      name:  "शुभम जाधव",
+      role:  "Logistics Manager & Material Supply Lead",
+      note:  "देखाव्यासाठी लागणाऱ्या कच्च्या साहित्याची खरेदी, पुरवठा आणि वाहतूक व्यवस्थेचे मुख्य नियंत्रण.",
+      image: "./assets/images/Shubham.jpeg"
+    },
+    {
+      index: "09",
       name:  "सत्यम जाधव",
-      role:  "Lighting & Setup Organizer",
-      note:  "नाट्यमय प्रकाशयोजना, वीज व्यवस्थापन आणि उभारणी मांडणी.",
+      role:  "Site Operations & Resource Supply Coordinator",
+      note:  "साहित्याची प्रत्यक्ष जागेवर मांडणी, देखावा उभारणीतील लॉजिस्टिक्स आणि संचलन नियोजन.",
       image: "./assets/images/Satyam.webp"
+    },
+    {
+      index: "10",
+      name:  "प्रशांत पाषाणकर",
+      role:  "Chief Sponsor & Executive Patron",
+      note:  "गिरनार गणेशोत्सवाचे मुख्य प्रायोजक, उत्सवासाठी अमूल्य आर्थिक योगदान, मार्गदर्शन आणि सततचा पाठिंबा.",
+      image: "./assets/images/Prashant.jpeg"
     }
   ]
 };

@@ -134,24 +134,52 @@ const siteContent = {
     },
     {
       index: "08",
+      name:  "भूमिका गावडे",
+      role:  "Temple Development & Structure Stylist",
+      note:  "मंदिर वास्तुकला विकास, सूक्ष्म नक्षीकाम देखावा आणि रचनात्मक सौंदर्याचे नियोजन.",
+      image: "./assets/images/bhumi.jpeg"
+    },
+    {
+      index: "09",
       name:  "शुभम जाधव",
       role:  "Logistics Manager & Material Supply Lead",
       note:  "देखाव्यासाठी लागणाऱ्या कच्च्या साहित्याची खरेदी, पुरवठा आणि वाहतूक व्यवस्थेचे मुख्य नियंत्रण.",
       image: "./assets/images/Shubham.jpeg"
     },
     {
-      index: "09",
+      index: "10",
       name:  "सत्यम जाधव",
-      role:  "Site Operations & Resource Supply Coordinator",
+      role:  "Resource Supply Coordinator",
       note:  "साहित्याची प्रत्यक्ष जागेवर मांडणी, देखावा उभारणीतील लॉजिस्टिक्स आणि संचलन नियोजन.",
       image: "./assets/images/Satyam.webp"
     },
     {
-      index: "10",
+      index: "11",
+      name:  "अथर्व दुर्गावळे",
+      role:  "Event Execution & Support Lead",
+      note:  "उत्सव व्यवस्थापन, देखावा उभारणी आणि सर्व कार्यात मोलाचे सहकार्य.",
+      image: "./assets/images/atharv.png"
+    },
+    {
+      index: "12",
+      name:  "विराज खातू",
+      role:  "Event Execution & Support Lead",
+      note:  "उत्सव व्यवस्थापन, देखावा उभारणी आणि सर्व कार्यात मोलाचे सहकार्य.",
+      image: "./assets/images/khatu.jpeg"
+    },
+    {
+      index: "13",
+      name:  "यश धुमाळ",
+      role:  "Event Execution & Support Lead",
+      note:  "उत्सव व्यवस्थापन, देखावा उभारणी आणि सर्व कार्यात मोलाचे सहकार्य.",
+      image: "./assets/images/yash.jpeg"
+    },
+    {
+      index: "14",
       name:  "प्रशांत पाषाणकर",
       role:  "Chief Sponsor & Executive Patron",
       note:  "गिरनार गणेशोत्सवाचे मुख्य प्रायोजक, उत्सवासाठी अमूल्य आर्थिक योगदान, मार्गदर्शन आणि सततचा पाठिंबा.",
-      image: "./assets/images/Prashant.jpeg"
+      image: "./assets/images/Prashant.png"
     }
   ]
 };

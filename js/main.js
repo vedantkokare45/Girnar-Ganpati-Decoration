@@ -167,15 +167,36 @@ const siteContent = {
       note:  "उत्सव व्यवस्थापन, देखावा उभारणी आणि सर्व कार्यात मोलाचे सहकार्य.",
       image: "./assets/images/khatu.jpeg"
     },
-    {
+     {
       index: "13",
+      name:  "स्वस्तिक सोळसे",
+      role:  "Event Execution & Support Lead",
+      note:  "उत्सव व्यवस्थापन, देखावा उभारणी आणि सर्व कार्यात मोलाचे सहकार्य.",
+      image: "./assets/images/IMG-20260914-WA0008.jpg"
+    },
+    {
+      index: "14",
       name:  "यश धुमाळ",
       role:  "Event Execution & Support Lead",
       note:  "उत्सव व्यवस्थापन, देखावा उभारणी आणि सर्व कार्यात मोलाचे सहकार्य.",
       image: "./assets/images/yash.jpeg"
     },
+     {
+      index: "15",
+      name:  "शिवार्थ पाषाणकर",
+      role:  "Event Execution & Support Lead",
+      note:  "उत्सव व्यवस्थापन, देखावा उभारणी आणि सर्व कार्यात मोलाचे सहकार्य.",
+      image: "./assets/images/IMG-20260915-WA0011.jpg"
+    },
+     {
+      index: "16",
+      name:  "अन्वी पाषाणकर",
+      role:  "Event Execution & Support Lead",
+      note:  "उत्सव व्यवस्थापन, देखावा उभारणी आणि सर्व कार्यात मोलाचे सहकार्य.",
+      image: "./assets/images/IMG-20260915-WA0004.jpg"
+    },
     {
-      index: "14",
+      index: "17",
       name:  "प्रशांत पाषाणकर",
       role:  "Chief Sponsor & Executive Patron",
       note:  "गिरनार गणेशोत्सवाचे मुख्य प्रायोजक, उत्सवासाठी अमूल्य आर्थिक योगदान, मार्गदर्शन आणि सततचा पाठिंबा.",

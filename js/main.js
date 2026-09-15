@@ -137,7 +137,7 @@ const siteContent = {
       name:  "भूमिका गावडे",
       role:  "Temple Development & Structure Stylist",
       note:  "मंदिर वास्तुकला विकास, सूक्ष्म नक्षीकाम देखावा आणि रचनात्मक सौंदर्याचे नियोजन.",
-      image: "./assets/images/bhumi.jpeg"
+      image: "./assets/images/IMG-20260915-WA0039.jpg"
     },
     {
       index: "09",

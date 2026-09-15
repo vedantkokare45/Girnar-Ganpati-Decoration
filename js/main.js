@@ -7,7 +7,7 @@ const siteContent = {
     mantra: "ॐ गं गणपतये नमः",
     title:  "गणपती बाप्पा मोरया",
     sub:    "गिरनार पर्वत व मंदिर सजावट",
-    image:  "./assets/images/ganpati-hero.jpg"
+    image:  "./assets/images/motion_photo_8126643403072949802.jpg"
   },
 
   girnar: {

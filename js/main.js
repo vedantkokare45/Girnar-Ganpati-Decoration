@@ -184,15 +184,15 @@ const siteContent = {
      {
       index: "15",
       name:  "शिवार्थ पाषाणकर",
-      role:  "Event Execution & Support Lead",
-      note:  "उत्सव व्यवस्थापन, देखावा उभारणी आणि सर्व कार्यात मोलाचे सहकार्य.",
+      role:  "",
+      note:  "",
       image: "./assets/images/IMG-20260915-WA0011.jpg"
     },
      {
       index: "16",
       name:  "अन्वी पाषाणकर",
-      role:  "Event Execution & Support Lead",
-      note:  "उत्सव व्यवस्थापन, देखावा उभारणी आणि सर्व कार्यात मोलाचे सहकार्य.",
+      role:  "",
+      note:  "",
       image: "./assets/images/IMG-20260915-WA0004.jpg"
     },
     {

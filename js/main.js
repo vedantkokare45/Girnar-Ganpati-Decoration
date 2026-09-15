@@ -5,9 +5,9 @@
 const siteContent = {
   hero: {
     mantra: "ॐ गं गणपतये नमः",
-    title:  "गणपती बाप्पा मोरया",
-    sub:    "गिरनार पर्वत व मंदिर सजावट",
-    image:  "./assets/images/motion_photo_8126643403072949802.jpg"
+    title: "गणपती बाप्पा मोरया",
+    sub: "गिरनार पर्वत व मंदिर सजावट",
+    image: "./assets/images/motion_photo_8126643403072949802.jpg"
   },
 
   girnar: {
@@ -85,122 +85,197 @@ const siteContent = {
   team: [
     {
       index: "01",
-      name:  "प्रफुल पाषाणकर",
-      role:  "Founder & Project Visionary",
-      note:  "गिरनार देखाव्याचे मुख्य संकल्पनाकार, कल्पक संकल्पनेचे मूळ जनक आणि संपूर्ण उत्सवाचे मुख्य आयोजक.",
+      name: "प्रफुल पाषाणकर",
+      role: "Founder & Project Visionary",
+      note: "गिरनार देखाव्याचे मुख्य संकल्पनाकार, कल्पक संकल्पनेचे मूळ जनक आणि संपूर्ण उत्सवाचे मुख्य आयोजक.",
       image: "./assets/images/Praful-Pashankar.webp"
     },
     {
       index: "02",
-      name:  "विराज जाधव",
-      role:  "Creative Director & Art Lead",
-      note:  "देखाव्याचे मुख्य कलात्मक दिग्दर्शक, वास्तुकलेचे सूक्ष्म नक्षीकाम आणि देखावा रचनेचे मुख्य मार्गदर्शन.",
+      name: "विराज जाधव",
+      role: "Creative Director & Art Lead",
+      note: "देखाव्याचे मुख्य कलात्मक दिग्दर्शक, वास्तुकलेचे सूक्ष्म नक्षीकाम आणि देखावा रचनेचे मुख्य मार्गदर्शन.",
       image: "./assets/images/viraj-jadhav.webp"
     },
     {
       index: "03",
-      name:  "ऋषी आंद्रे",
-      role:  "Lead Set Architect & Concept Realization",
-      note:  "संकल्पनेला प्रत्यक्ष जिवंत रूप देणारे मुख्य कलाकार, भव्य गिरनार पर्वताची उभारणी आणि सृजनशील मंच रचना.",
+      name: "ऋषी आंद्रे",
+      role: "Lead Set Architect & Concept Realization",
+      note: "संकल्पनेला प्रत्यक्ष जिवंत रूप देणारे मुख्य कलाकार, भव्य गिरनार पर्वताची उभारणी आणि सृजनशील मंच रचना.",
       image: "./assets/images/Andre.jpg"
     },
     {
       index: "04",
-      name:  "वेदांत कोकरे",
-      role:  "Lead Web Developer & Creative Assistant",
-      note:  "गिरनार दर्शन वेबसाईटचे मुख्य निर्माते, डिजिटल सादरीकरण व देखावा उभारणीतील सर्वांगीण सहाय्यक.",
+      name: "वेदांत कोकरे",
+      role: "Lead Web Developer & Creative Assistant",
+      note: "गिरनार दर्शन वेबसाईटचे मुख्य निर्माते, डिजिटल सादरीकरण व देखावा उभारणीतील सर्वांगीण सहाय्यक.",
       image: "./assets/images/Vedant.webp"
     },
     {
       index: "05",
-      name:  "वैष्णवी जाधव",
-      role:  "Color Aesthetics & Creative Dept Head",
-      note:  "नयनरम्य रंगसंगतीचे संयोजन, कलात्मक रंगकाम आणि मंदिराच्या मुख्य सुशोभीकरणाचे नेतृत्व.",
+      name: "वैष्णवी जाधव",
+      role: "Color Aesthetics & Creative Dept Head",
+      note: "नयनरम्य रंगसंगतीचे संयोजन, कलात्मक रंगकाम आणि मंदिराच्या मुख्य सुशोभीकरणाचे नेतृत्व.",
       image: "./assets/images/vaishnavi.jpeg"
     },
     {
       index: "06",
-      name:  "आकांक्षा धुमाळ",
-      role:  "Temple Development & Structure Stylist",
-      note:  "मंदिर वास्तुकला विकास, सूक्ष्म नक्षीकाम देखावा आणि रचनात्मक सौंदर्याचे नियोजन.",
+      name: "आकांक्षा धुमाळ",
+      role: "Temple Development & Structure Stylist",
+      note: "मंदिर वास्तुकला विकास, सूक्ष्म नक्षीकाम देखावा आणि रचनात्मक सौंदर्याचे नियोजन.",
       image: "./assets/images/akansha.jpeg"
     },
     {
       index: "07",
-      name:  "अपर्णा धुमाळ",
-      role:  "Floral Design & Decor Executive",
-      note:  "उत्कृष्ट पुष्पसजावट, आकर्षक आभूषण मांडणी आणि मंदिराच्या सजावटीचे अंतिम फिनिशिंग.",
+      name: "अपर्णा धुमाळ",
+      role: "Floral Design & Decor Executive",
+      note: "उत्कृष्ट पुष्पसजावट, आकर्षक आभूषण मांडणी आणि मंदिराच्या सजावटीचे अंतिम फिनिशिंग.",
       image: "./assets/images/aparna.jpeg"
     },
     {
       index: "08",
-      name:  "भूमिका गावडे",
-      role:  "Temple Development & Structure Stylist",
-      note:  "मंदिर वास्तुकला विकास, सूक्ष्म नक्षीकाम देखावा आणि रचनात्मक सौंदर्याचे नियोजन.",
+      name: "भूमिका गावडे",
+      role: "Temple Development & Structure Stylist",
+      note: "मंदिर वास्तुकला विकास, सूक्ष्म नक्षीकाम देखावा आणि रचनात्मक सौंदर्याचे नियोजन.",
       image: "./assets/images/IMG-20260915-WA0039.jpg"
     },
     {
       index: "09",
-      name:  "शुभम जाधव",
-      role:  "Logistics Manager & Material Supply Lead",
-      note:  "देखाव्यासाठी लागणाऱ्या कच्च्या साहित्याची खरेदी, पुरवठा आणि वाहतूक व्यवस्थेचे मुख्य नियंत्रण.",
+      name: "शुभम जाधव",
+      role: "Logistics Manager & Material Supply Lead",
+      note: "देखाव्यासाठी लागणाऱ्या कच्च्या साहित्याची खरेदी, पुरवठा आणि वाहतूक व्यवस्थेचे मुख्य नियंत्रण.",
       image: "./assets/images/Shubham.jpeg"
     },
     {
       index: "10",
-      name:  "सत्यम जाधव",
-      role:  "Resource Supply Coordinator",
-      note:  "साहित्याची प्रत्यक्ष जागेवर मांडणी, देखावा उभारणीतील लॉजिस्टिक्स आणि संचलन नियोजन.",
+      name: "सत्यम जाधव",
+      role: "Resource Supply Coordinator",
+      note: "साहित्याची प्रत्यक्ष जागेवर मांडणी, देखावा उभारणीतील लॉजिस्टिक्स आणि संचलन नियोजन.",
       image: "./assets/images/Satyam.webp"
     },
     {
       index: "11",
-      name:  "अथर्व दुर्गावळे",
-      role:  "Event Execution & Support Lead",
-      note:  "उत्सव व्यवस्थापन, देखावा उभारणी आणि सर्व कार्यात मोलाचे सहकार्य.",
+      name: "अथर्व दुर्गावळे",
+      role: "Event Execution & Support Lead",
+      note: "उत्सव व्यवस्थापन, देखावा उभारणी आणि सर्व कार्यात मोलाचे सहकार्य.",
       image: "./assets/images/atharv.png"
     },
     {
       index: "12",
-      name:  "विराज खातू",
-      role:  "Event Execution & Support Lead",
-      note:  "उत्सव व्यवस्थापन, देखावा उभारणी आणि सर्व कार्यात मोलाचे सहकार्य.",
+      name: "विराज खातू",
+      role: "Event Execution & Support Lead",
+      note: "उत्सव व्यवस्थापन, देखावा उभारणी आणि सर्व कार्यात मोलाचे सहकार्य.",
       image: "./assets/images/khatu.jpeg"
     },
-     {
+    {
       index: "13",
-      name:  "स्वस्तिक सोळसे",
-      role:  "Event Execution & Support Lead",
-      note:  "उत्सव व्यवस्थापन, देखावा उभारणी आणि सर्व कार्यात मोलाचे सहकार्य.",
+      name: "स्वस्तिक सोळसे",
+      role: "Event Execution & Support Lead",
+      note: "उत्सव व्यवस्थापन, देखावा उभारणी आणि सर्व कार्यात मोलाचे सहकार्य.",
       image: "./assets/images/IMG-20260914-WA0008.jpg"
     },
     {
       index: "14",
-      name:  "यश धुमाळ",
-      role:  "Event Execution & Support Lead",
-      note:  "उत्सव व्यवस्थापन, देखावा उभारणी आणि सर्व कार्यात मोलाचे सहकार्य.",
+      name: "यश धुमाळ",
+      role: "Event Execution & Support Lead",
+      note: "उत्सव व्यवस्थापन, देखावा उभारणी आणि सर्व कार्यात मोलाचे सहकार्य.",
       image: "./assets/images/yash.jpeg"
     },
-     {
+    {
       index: "15",
-      name:  "शिवार्थ पाषाणकर",
-      role:  "",
-      note:  "",
+      name: "शिवार्थ पाषाणकर",
+      role: "",
+      note: "",
       image: "./assets/images/IMG-20260915-WA0011.jpg"
     },
-     {
+    {
       index: "16",
-      name:  "अन्वी पाषाणकर",
-      role:  "",
-      note:  "",
+      name: "अन्वी पाषाणकर",
+      role: "",
+      note: "",
       image: "./assets/images/IMG-20260915-WA0004.jpg"
     },
     {
       index: "17",
-      name:  "प्रशांत पाषाणकर",
-      role:  "Chief Sponsor & Executive Patron",
-      note:  "गिरनार गणेशोत्सवाचे मुख्य प्रायोजक, उत्सवासाठी अमूल्य आर्थिक योगदान, मार्गदर्शन आणि सततचा पाठिंबा.",
+      name: "प्रशांत पाषाणकर",
+      role: "Chief Sponsor & Executive Patron",
+      note: "गिरनार गणेशोत्सवाचे मुख्य प्रायोजक, उत्सवासाठी अमूल्य आर्थिक योगदान, मार्गदर्शन आणि सततचा पाठिंबा.",
       image: "./assets/images/Prashant.png"
+    }
+  ],
+
+  gallery: [
+    {
+      id: 1,
+      type: "video",
+      category: "video",
+      videoSrc: "./assets/videos/VID-20260915-WA0047.mp4"
+    },
+    {
+      id: 2,
+      type: "video",
+      category: "video",
+      videoSrc: "./assets/videos/VID-20260915-WA0048.mp4"
+    },
+    {
+      id: 3,
+      type: "video",
+      category: "video",
+      videoSrc: "./assets/videos/VID-20260915-WA0049.mp4"
+    },
+    {
+      id: 4,
+      type: "video",
+      category: "video",
+      videoSrc: "./assets/videos/VID-20260915-WA0050.mp4"
+    },
+    {
+      id: 5,
+      type: "video",
+      category: "video",
+      videoSrc: "./assets/videos/VID-20260915-WA0051.mp4"
+    },
+    {
+      id: 6,
+      type: "video",
+      category: "video",
+      videoSrc: "./assets/videos/VID-20260915-WA0052.mp4"
+    },
+    {
+      id: 7,
+      type: "video",
+      category: "video",
+      videoSrc: "./assets/videos/VID-20260915-WA0053.mp4"
+    },
+    {
+      id: 8,
+      type: "video",
+      category: "video",
+      videoSrc: "./assets/videos/VID-20260915-WA0054.mp4"
+    },
+    {
+      id: 9,
+      type: "video",
+      category: "video",
+      videoSrc: "./assets/videos/VID-20260915-WA0055.mp4"
+    },
+    {
+      id: 10,
+      type: "video",
+      category: "video",
+      videoSrc: "./assets/videos/VID-20260915-WA0056.mp4"
+    },
+    {
+      id: 11,
+      type: "video",
+      category: "video",
+      videoSrc: "./assets/videos/VID-20260915-WA0057.mp4"
+    },
+    {
+      id: 112,
+      type: "video",
+      category: "video",
+      videoSrc: "./assets/videos/VID-20260915-WA0058.mp4"
     }
   ]
 };
@@ -432,7 +507,7 @@ function initStepClimber() {
     slider.value = steps;
 
     countEl.textContent = steps.toLocaleString("mr-IN");
-    
+
     // Altitude math: 0 to 3600 feet proportionally
     const feet = Math.round((steps / 9999) * 3600);
     if (elevationEl) elevationEl.textContent = `${feet.toLocaleString("mr-IN")} फूट`;
@@ -506,6 +581,159 @@ function renderTeam() {
     .join("");
 }
 
+/* ── Gallery & Lightbox Controller ──────────────────────────── */
+function initGallery() {
+  const grid = document.getElementById("galleryGrid");
+  const filterBtns = document.querySelectorAll(".gallery-filter-btn");
+  if (!grid) return;
+
+  const items = siteContent.gallery || [];
+
+  // Update counts
+  const countAll = document.getElementById("count-all");
+  const countPhoto = document.getElementById("count-photo");
+  const countVideo = document.getElementById("count-video");
+
+  if (countAll) countAll.textContent = items.length;
+  if (countPhoto) countPhoto.textContent = items.filter(i => i.category === "photo").length;
+  if (countVideo) countVideo.textContent = items.filter(i => i.category === "video").length;
+
+  let activeFilter = "all";
+  let activeIndex = 0;
+  let filteredItems = [...items];
+
+  function renderCards() {
+    filteredItems = activeFilter === "all"
+      ? items
+      : items.filter(i => i.category === activeFilter);
+
+    grid.innerHTML = filteredItems.map((item, idx) => {
+      const isVideo = item.type === "video";
+      let mediaHtml = "";
+
+      if (isVideo && item.videoSrc) {
+        mediaHtml = `<video src="${item.videoSrc}#t=0.5" preload="metadata" muted playsinline class="gallery-card__video-thumb"></video>`;
+      } else {
+        const imgSrc = item.thumb || item.src;
+        mediaHtml = `<img src="${imgSrc}" alt="गॅलरी देखावा" loading="lazy" decoding="async" />`;
+      }
+
+      return `
+        <article class="gallery-card" data-index="${idx}" data-reveal>
+          <div class="gallery-card__media">
+            ${mediaHtml}
+            ${isVideo ? `
+              <div class="gallery-card__play">
+                <div class="play-btn-ring">
+                  <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor">
+                    <path d="M8 5v14l11-7z"/>
+                  </svg>
+                </div>
+              </div>
+            ` : ''}
+          </div>
+        </article>
+      `;
+    }).join("");
+
+    // Attach click listeners to cards
+    grid.querySelectorAll(".gallery-card").forEach(card => {
+      card.addEventListener("click", () => {
+        const idx = parseInt(card.dataset.index, 10);
+        openLightbox(idx);
+      });
+    });
+  }
+
+  // Filter Buttons
+  filterBtns.forEach(btn => {
+    btn.addEventListener("click", () => {
+      filterBtns.forEach(b => {
+        b.classList.remove("is-active");
+        b.setAttribute("aria-selected", "false");
+      });
+      btn.classList.add("is-active");
+      btn.setAttribute("aria-selected", "true");
+
+      activeFilter = btn.dataset.filter;
+      renderCards();
+    });
+  });
+
+  // Lightbox Modal Handling
+  const modal = document.getElementById("lightboxModal");
+  const backdrop = document.getElementById("lightboxBackdrop");
+  const closeBtn = document.getElementById("lightboxClose");
+  const prevBtn = document.getElementById("lightboxPrev");
+  const nextBtn = document.getElementById("lightboxNext");
+  const mediaContainer = document.getElementById("lightboxMedia");
+
+  function openLightbox(idx) {
+    if (idx < 0 || idx >= filteredItems.length) return;
+    activeIndex = idx;
+    const item = filteredItems[activeIndex];
+
+    if (item.type === "video") {
+      if (item.videoSrc) {
+        mediaContainer.innerHTML = `
+          <video controls autoplay class="lightbox-video-player">
+            <source src="${item.videoSrc}" type="video/mp4">
+            तुमच्या ब्राऊझरमध्ये व्हिडिओ चालत नाही.
+          </video>
+        `;
+      } else if (item.youtubeId) {
+        mediaContainer.innerHTML = `
+          <div class="lightbox-iframe-wrap">
+            <iframe src="https://www.youtube.com/embed/${item.youtubeId}?autoplay=1&rel=0" 
+                    title="मेकिंग व्हिडिओ" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+          </div>
+        `;
+      }
+    } else {
+      mediaContainer.innerHTML = `
+        <img src="${item.src}" alt="गॅलरी देखावा" />
+      `;
+    }
+
+    modal.classList.add("is-open");
+    modal.setAttribute("aria-hidden", "false");
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeLightbox() {
+    modal.classList.remove("is-open");
+    modal.setAttribute("aria-hidden", "true");
+    document.body.style.overflow = "";
+    if (mediaContainer) mediaContainer.innerHTML = "";
+  }
+
+  function showNext() {
+    const nextIdx = (activeIndex + 1) % filteredItems.length;
+    openLightbox(nextIdx);
+  }
+
+  function showPrev() {
+    const prevIdx = (activeIndex - 1 + filteredItems.length) % filteredItems.length;
+    openLightbox(prevIdx);
+  }
+
+  if (closeBtn) closeBtn.addEventListener("click", closeLightbox);
+  if (backdrop) backdrop.addEventListener("click", closeLightbox);
+  if (nextBtn) nextBtn.addEventListener("click", showNext);
+  if (prevBtn) prevBtn.addEventListener("click", showPrev);
+
+  window.addEventListener("keydown", (e) => {
+    if (!modal.classList.contains("is-open")) return;
+    if (e.key === "Escape") closeLightbox();
+    if (e.key === "ArrowRight") showNext();
+    if (e.key === "ArrowLeft") showPrev();
+  });
+
+  renderCards();
+}
+
 /* ── Loader & Smooth Scroll ──────────────────────────────────── */
 function setupLoader() {
   const loader = document.getElementById("loader");
@@ -545,6 +773,7 @@ document.addEventListener("DOMContentLoaded", () => {
   renderHero();
   renderGirnar();
   renderTeam();
+  initGallery();
   initTimeSwitcher();
   initPeakExplorer();
   initStepClimber();
@@ -554,3 +783,4 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 window.siteContent = siteContent;
+

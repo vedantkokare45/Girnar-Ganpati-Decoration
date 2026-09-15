@@ -39,6 +39,7 @@
     <li data-target="girnar"><span>गिरनार</span></li>
     <li data-target="video"><span>व्हिडिओ</span></li>
     <li data-target="team"><span>माणसं</span></li>
+    <li data-target="gallery"><span>गॅलरी</span></li>
     <li data-target="final"><span>समारोप</span></li>
   </ol>
 </nav>
@@ -196,7 +197,37 @@
     </div>
   </section>
 
-  <!-- ══ 5 : FINAL DARSHAN ══ -->
+  <!-- ══ 5 : GALLERY SECTION ══ -->
+  <section class="section section--gallery" id="gallery" aria-labelledby="gallery-title">
+    <div class="section__inner">
+      <div class="section-header-wrap">
+        <div>
+          <p class="eyebrow">🎬 देखावा व मेकिंग गॅलरी 🎬</p>
+          <h2 class="display" id="gallery-title">सजावट व मेकिंग</h2>
+        </div>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="gallery-filters" role="tablist" aria-label="गॅलरी प्रकार">
+        <button class="gallery-filter-btn is-active" data-filter="all" role="tab" aria-selected="true">
+          <span>सर्व</span> <span class="filter-count" id="count-all">0</span>
+        </button>
+        <button class="gallery-filter-btn" data-filter="photo" role="tab" aria-selected="false">
+          <span>📷 फोटो</span> <span class="filter-count" id="count-photo">0</span>
+        </button>
+        <button class="gallery-filter-btn" data-filter="video" role="tab" aria-selected="false">
+          <span>🎥 मेकिंग व्हिडिओ</span> <span class="filter-count" id="count-video">0</span>
+        </button>
+      </div>
+
+      <!-- Grid Container -->
+      <div class="gallery-grid" id="galleryGrid">
+        <!-- Clean Image & Video Tiles rendered via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ 6 : FINAL DARSHAN ══ -->
   <section class="section section--final" id="final" aria-labelledby="final-title">
     <div class="final-stage">
       <div class="final-ganpati" aria-hidden="true">
@@ -210,6 +241,27 @@
       </div>
     </div>
   </section>
+
+  <!-- ══ GALLERY LIGHTBOX MODAL ══ -->
+  <div class="lightbox-modal" id="lightboxModal" aria-hidden="true" role="dialog" aria-label="गॅलरी मीडिया">
+    <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightboxClose" aria-label="बंद करा">
+        <svg viewBox="0 0 24 24" width="22" height="22"><path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+      </button>
+      
+      <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="मागील">
+        <svg viewBox="0 0 24 24" width="22" height="22"><path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="पुढील">
+        <svg viewBox="0 0 24 24" width="22" height="22"><path d="M9 18l6-6-6-6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+
+      <div class="lightbox-media-container" id="lightboxMedia">
+        <!-- Dynamically injected full-screen media -->
+      </div>
+    </div>
+  </div>
 
   <!-- ══ FOOTER ══ -->
   <!-- <footer class="footer">

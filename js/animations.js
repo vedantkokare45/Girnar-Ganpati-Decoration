@@ -200,6 +200,22 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  /* ── 4.5. GALLERY SECTION SCROLL TRIGGER ──────────────────────── */
+  const gallerySec = document.getElementById("gallery");
+  if (gallerySec) {
+    ScrollTrigger.create({
+      trigger: gallerySec,
+      start: "top 60%",
+      end: "bottom 40%",
+      onEnter: () => {
+        updateRailNav("gallery");
+      },
+      onEnterBack: () => {
+        updateRailNav("gallery");
+      }
+    });
+  }
+
   /* ── 5. FINAL DARSHAN REANIMATION ────────────────────────────── */
   const finalSec = document.getElementById("final");
   const finalCopy = document.getElementById("finalCopy");

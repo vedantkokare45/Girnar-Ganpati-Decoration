@@ -207,8 +207,8 @@ const siteContent = {
   gallery: [
     {
       id: 1,
-      type: "image",
-      category: "image",
+      type: "photo",
+      category: "photo",
       videoSrc: "IMG_20260915_043653.jpg"
     },
     {

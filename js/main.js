@@ -277,7 +277,7 @@ const siteContent = {
   //     category: "video",
   //     videoSrc: "./assets/videos/VID-20260915-WA0058.mp4"
   //   }
-  // ]
+  ]
 };
 
 /* Global cursor tracker for 3D depth calculation */

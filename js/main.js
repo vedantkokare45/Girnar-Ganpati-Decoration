@@ -215,7 +215,7 @@ const siteContent = {
       id: 2,
       type: "video",
       category: "video",
-      videoSrc: "./assets/videos/VID-20260915-WA0048.mp4"
+      videoSrc: "VID-20260915-WA0000.mp4"
     },
   //   {
   //     id: 3,

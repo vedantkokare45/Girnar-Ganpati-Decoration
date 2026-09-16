@@ -207,9 +207,9 @@ const siteContent = {
   gallery: [
     {
       id: 1,
-      type: "video",
-      category: "video",
-      videoSrc: "./assets/videos/VID-20260915-WA0047.mp4"
+      type: "image",
+      category: "image",
+      videoSrc: "IMG_20260915_043653.jpg"
     },
     {
       id: 2,

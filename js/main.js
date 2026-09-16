@@ -209,7 +209,7 @@ const siteContent = {
       id: 1,
       type: "video",
       category: "video",
-      videoSrc: "IMG_20260915_043653.jpg"
+      videoSrc: "IMG_0108.MP4"
     },
     {
       id: 2,

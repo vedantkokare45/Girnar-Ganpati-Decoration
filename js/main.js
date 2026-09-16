@@ -207,8 +207,8 @@ const siteContent = {
   gallery: [
     {
       id: 1,
-      type: "photo",
-      category: "photo",
+      type: "video",
+      category: "video",
       videoSrc: "IMG_20260915_043653.jpg"
     },
     {
@@ -217,67 +217,67 @@ const siteContent = {
       category: "video",
       videoSrc: "./assets/videos/VID-20260915-WA0048.mp4"
     },
-    {
-      id: 3,
-      type: "video",
-      category: "video",
-      videoSrc: "./assets/videos/VID-20260915-WA0049.mp4"
-    },
-    {
-      id: 4,
-      type: "video",
-      category: "video",
-      videoSrc: "./assets/videos/VID-20260915-WA0050.mp4"
-    },
-    {
-      id: 5,
-      type: "video",
-      category: "video",
-      videoSrc: "./assets/videos/VID-20260915-WA0051.mp4"
-    },
-    {
-      id: 6,
-      type: "video",
-      category: "video",
-      videoSrc: "./assets/videos/VID-20260915-WA0052.mp4"
-    },
-    {
-      id: 7,
-      type: "video",
-      category: "video",
-      videoSrc: "./assets/videos/VID-20260915-WA0053.mp4"
-    },
-    {
-      id: 8,
-      type: "video",
-      category: "video",
-      videoSrc: "./assets/videos/VID-20260915-WA0054.mp4"
-    },
-    {
-      id: 9,
-      type: "video",
-      category: "video",
-      videoSrc: "./assets/videos/VID-20260915-WA0055.mp4"
-    },
-    {
-      id: 10,
-      type: "video",
-      category: "video",
-      videoSrc: "./assets/videos/VID-20260915-WA0056.mp4"
-    },
-    {
-      id: 11,
-      type: "video",
-      category: "video",
-      videoSrc: "./assets/videos/VID-20260915-WA0057.mp4"
-    },
-    {
-      id: 112,
-      type: "video",
-      category: "video",
-      videoSrc: "./assets/videos/VID-20260915-WA0058.mp4"
-    }
-  ]
+  //   {
+  //     id: 3,
+  //     type: "video",
+  //     category: "video",
+  //     videoSrc: "./assets/videos/VID-20260915-WA0049.mp4"
+  //   },
+  //   {
+  //     id: 4,
+  //     type: "video",
+  //     category: "video",
+  //     videoSrc: "./assets/videos/VID-20260915-WA0050.mp4"
+  //   },
+  //   {
+  //     id: 5,
+  //     type: "video",
+  //     category: "video",
+  //     videoSrc: "./assets/videos/VID-20260915-WA0051.mp4"
+  //   },
+  //   {
+  //     id: 6,
+  //     type: "video",
+  //     category: "video",
+  //     videoSrc: "./assets/videos/VID-20260915-WA0052.mp4"
+  //   },
+  //   {
+  //     id: 7,
+  //     type: "video",
+  //     category: "video",
+  //     videoSrc: "./assets/videos/VID-20260915-WA0053.mp4"
+  //   },
+  //   {
+  //     id: 8,
+  //     type: "video",
+  //     category: "video",
+  //     videoSrc: "./assets/videos/VID-20260915-WA0054.mp4"
+  //   },
+  //   {
+  //     id: 9,
+  //     type: "video",
+  //     category: "video",
+  //     videoSrc: "./assets/videos/VID-20260915-WA0055.mp4"
+  //   },
+  //   {
+  //     id: 10,
+  //     type: "video",
+  //     category: "video",
+  //     videoSrc: "./assets/videos/VID-20260915-WA0056.mp4"
+  //   },
+  //   {
+  //     id: 11,
+  //     type: "video",
+  //     category: "video",
+  //     videoSrc: "./assets/videos/VID-20260915-WA0057.mp4"
+  //   },
+  //   {
+  //     id: 112,
+  //     type: "video",
+  //     category: "video",
+  //     videoSrc: "./assets/videos/VID-20260915-WA0058.mp4"
+  //   }
+  // ]
 };
 
 /* Global cursor tracker for 3D depth calculation */
